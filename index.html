@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boumediene Photogrpher</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1624497a54.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/black orng.png" alt="boumediene photographer" id="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT ME</a></li>
+                    <li><img src="img/moon.png" id="moon"></li>
+                    <i class="fa-solid fa-house" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+    
+            <div class="detel">
+                <h1>I'm <span>Boumediene</span> Rekkab</h1>
+                <p>Filmmaker & Video Editor..</p>
+                <a href="img/mycv.pdf" download>Download CV</a>
+            </div>
+            
+            <div class="images">
+                <img src="img/shape.png" class="shape">
+                <img src="img/myphoto.png" class="me">
+            </div>
+        </div>
+    </div>
+
+    <!-- About  -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/IMG_9947.JPG">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>"I am a video editor and filmmaker specialized in cinematography. I have extensive experience in directing and production management. With excellent skills in editing and directing, I can deliver unique and high-quality video content that captures attention and tells stories with creativity and distinction. I also possess advanced design skills, constantly seeking to leverage modern advancements to enhance my performance and enrich the digital space with innovative and quality works."</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Filmmaking</span><br>making short film</li>
+                            <li><span>video Editing</span><br>high quality video</li>
+                            <li><span>Cinematography</span><br>high quality photography</li>
+                            <li><span>Color Grading</span><br>Basic Color Grading Skills</li>
+                            <li><span>Lighting</span><br>Basic Cinematic Lighting Skills</li>
+                            <li><span>Design & Motion Design</span><br>i can use design skill in my work</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021-2024</span><br>Team Leader at Chomoe Production</li>
+                            <li><span>2019-2021</span><br>Founder of El Basma Tech Academy</li>
+                            <li><span>2019-2023</span><br>Media Manager at Association Chomoe</li>
+                            <li><span>2020-2022</span><br>Media Manager at Tolab el Maali Academy</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Computer Science</span><br>Bachelor of Computer Science (University of Abou Bakr Belkaid Tlemcen)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>filmmaking</h2>
+                    <p>Crafting stories through visuals and sound, merging creativity with technical expertise to captivate audiences worldwide.</p>
+                </div>
+                <div>
+                    <h2>Video Editing</h2>
+                    <p>Shaping raw footage into compelling narratives, enhancing storytelling through rhythm, pacing, and visual dynamics.</p>
+                </div>
+                <div>
+                    <h2>Photography</h2>
+                    <p>Capturing moments frozen in time, conveying emotion and beauty through the lens of creativity.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PORTFOLIo -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Last Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <iframe width="320" height="240" src="https://www.youtube.com/embed/dbL83iUL1uk?si=mhRclDijPDvpQ1FH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                    <div class="layer">
+                        <h3>Chabab el Mostakbal</h3>
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur voluptatum expedita placeat</p> -->
+                    </div>
+                </div>
+                <div class="work">
+                    <iframe src="https://drive.google.com/file/d/1C-wUgc3_sAC-BiQEl7InIvGMWQclXBYQ/preview" width="320" height="240" allow="autoplay"></iframe>
+                    <div class="layer">
+                        <h3>Intro Logo</h3>
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur voluptatum expedita placeat</p> -->
+                    </div>
+                </div>
+                <div class="work">
+                    <iframe src="https://drive.google.com/file/d/1YS7XoMwZl8_77Mg1mbcbJF7e15rFj6i8/preview" width="320" height="240" allow="autoplay"></iframe>
+                    <div class="layer">
+                        <h3>Epic Intro</h3>
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur voluptatum expedita placeat</p> -->
+                    </div>
+                </div>
+                <div class="work">
+                    <iframe src="https://drive.google.com/file/d/1rVUhMrC79VlbWz2JySwIcAvLIzRqXzim/preview" width="320" height="240" allow="autoplay"></iframe>
+                    <div class="layer">
+                        <h3>Event Promo</h3>
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur voluptatum expedita placeat</p> -->
+                    </div>
+                </div>
+                <div class="work">
+                    <iframe src="https://drive.google.com/file/d/1FzOl8UqnqBd6O5Jba3ZUTjmy3eJ1lUSL/preview" width="320" height="240" allow="autoplay"></iframe>
+                    <div class="layer">
+                        <h3>Fast Promo</h3>
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur voluptatum expedita placeat</p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Contact -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>contact@exemple.com</p>
+                    <p>+213123456789</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/boumediene.rekkab.98/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/boumediene.dev/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/boumedienedev/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/boumedieneDev"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
